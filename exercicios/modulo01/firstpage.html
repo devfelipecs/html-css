@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Módulo 01</title>
+    <style>
+        @font-face {
+            font-family: 'London';
+            src: url('fonts/Olondon_.otf') format('opentype'), url(fonts/OldLondonAlternate.ttf) format('truetype');
+        }
+        body{
+            background-color:rgb(37, 37, 37);
+            font: optional;color: white;
+            text-align: justify;
+            font-size: 20px;
+        }
+        h1{
+            font-family: 'London';
+            color: white;
+            text-align: center;
+            font-size: 4em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'London';
+            color: cornflowerblue;
+            font-size: 2em;
+        }
+         p{
+             font-family: Arial, Helvetica, sans-serif;
+         }
+        
+
+
+    </style>
+</head>
+<body>  
+     <h1>Exercícios Módulo 01</h1>
+     <hr>
+    
+    <h2>Você pode quebrar as linhas usando a tag &lt;br&gt;<br>EX:</h2>
+    <p> O <br> Céu <br> É <br> Azul <br></p>
+    
+    <h2>Simbolos especiais:</h2>
+    &reg;
+    &copy;
+    &trade;
+    &euro;
+    &cent;
+    &pound;
+    &Delta;
+    &uarr;
+    </p>
+    <h3>Emojis: <a href="https://emojipedia.org/vulcan-salute/">emojipedia</a></h3>
+    <p>&#x1F596🖖</p>
+    <hr>
+    
+    <h2>Marcações:</h2>
+    <P><strong>Negrito &lt;strong&gt;</strong> <br>
+    
+    Nessa frase temos um <em>termo em ênfase</em> usando a tag EM <br>
+    Podemos também um <mark style="background-color: rgb(127, 224, 9);">texto marcado</mark> usando a tag mark </P>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido mas não consigerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+    <p>Existe também o <u>sublinhado</u> com a &lt;tag&gt; (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    <h2>Código fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+        <pre>
+            <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'0 número {num} é par')
+    else:
+        print(f'0 número {num} é impar')
+    print('fim do programa')
+            </code>
+        </pre>
+
+    <H2>Citações</H2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Diego Eis, no seu livro HTML5 e CSS3 com farinha e pimenta:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML5_e_CSS3_com_farinha_e_pimenta/nDKMAwAAQBAJ?hl=pt-BR&gbpv=1&dq=html5&pg=PA19&printsec=frontcover">
+        O HTML é baseado no conceito de Hipertexto, que é uma forma de organizar conteúdo de forma não linear.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cacading Style Sheets">CSS</abbr></p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <hr>
+
+    <h2>Listas ordenadas</h2>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar roupa</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="disc">
+        <li>Pão</li>
+        <li>leite</li>
+        <li>azeite</li>
+        <li>ovo</li>
+        <li>leite</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>FORTRAN</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+         </ul>
+    </ol>
+    <h2>Lista de defninições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>linguagem de marcação para a criação de conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </dl>
+    <hr>
+    <h2>Usando links externos</h2>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo" target="_blank" rel="external"> canal gratuito no YouTube</a></p>
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser pode acessar também minha <a href="pag002.html" rel="next"> segunda página</a></p>
+    <p>Você também pode acessar nossa <a href="pag003.html"> página de notícias</a></p>
+    <hr>
+    <h2>Imagem dinâmica</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotos-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/fotos-g.png" alt="Imagem flexível">
+    </picture>
+    <h2>Reproduzindo áudio</h2>
+    <audio src="midia/audio.ogg" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/audio.mp3" type="audio/mpeg">
+        <source src="midia/audio.ogg" type="audio/ogg">
+        <source src="midia/audio.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/audio.mp3"> clique aqui para baixar o arquivo MP3</a> </p>
+    </audio>
+    <hr>
+    <h2>Inserindo videos hospedados localmente</h2>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    <video width="560" controls autoplay loop>
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video>
+    <h2>Inserindo videos do youtube </h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yLOUahp-RIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+
+    <hr>
+    <img src="logohtml5.png" alt="logo HTML5">
+</body>
+<hr>
+<footer>contato: (11) 94031-8068</footer>
+</html> 
